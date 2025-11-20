@@ -1,0 +1,67 @@
+.container{
+    display: grid;
+    height: 201vh;
+    background-color: white;
+    grid-template-columns: 1fr;
+    grid-template-rows: 12vh 76vh 12vh 1fr;
+    gap:1px;
+    grid-template-areas: 
+    "hd"
+    "main"
+    "ft"
+    "main2"
+}
+
+body,html{
+    padding:0%;
+    margin:0%;
+    width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+h1 {
+    color: azure;
+}
+
+p{
+color: rgba(255, 248, 220, 0.8); /* 0.5 = 50% genomskinlig sky blue */
+}
+
+  
+
+header {
+    display: grid;
+    grid-area: hd;
+    background-color: #2196F3 ;
+    font-family:Playfair Display;
+    
+
+}
+
+#main1 {
+    display: grid;
+    grid-area: main;
+    background-color: azure;
+    background-image: url(../img/nature5.webp);
+    background-size: cover;     
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-size:x-large;
+}
+
+footer{
+    display:grid;
+    grid-area:ft;
+    background-color: #2196F3;
+}
+
+#main2{
+    display: grid;
+    grid-area:main2;
+    background-color:beige;
+
+}
