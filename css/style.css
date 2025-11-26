@@ -23,8 +23,15 @@ body{
 }
 
 h1 {
-    color: azure;
+    color:cyan;
 }
+
+h2 {
+    color: azure;
+
+}
+
+
 
 p{
 color: rgba(255, 248, 220, 0.8); /* 0.5 = 50% genomskinlig sky blue */
@@ -33,12 +40,17 @@ color: rgba(255, 248, 220, 0.8); /* 0.5 = 50% genomskinlig sky blue */
   
 
 header {
-    display: grid;
+    display: flex;
     grid-area: hd;
     background-color: #2196F3 ;
     font-family:Playfair Display;
-    
+    align-self: center;
+}
 
+#logo {
+    align-self: center;
+    height: 60px;
+    width: auto
 }
 
 #main1 {
@@ -50,13 +62,19 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    font-size:x-large;
+    font-size:xx-large;
+    
 }
 
 footer{
     display:grid;
     grid-area:ft;
     background-color: #2196F3;
+
+}
+#compass {
+    height: 50px;
+    width: auto;
 }
 
 #main2{
