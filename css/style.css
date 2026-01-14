@@ -44,7 +44,6 @@ header {
     background-color: #2196F3 ;
     font-family:'Times New Roman', Times, serif;
     align-self: center;
-    padding:0 10px;
     align-items: center;
 }
 
@@ -57,6 +56,8 @@ header h1 {
 .top-nav{
     margin-left: auto;
     flex-shrink: 0;
+    text-decoration:underline;
+    padding:0px 120px;
 }
 
 .top-nav a {
@@ -75,6 +76,15 @@ header h1 {
         align-self: center;
 
 }
+
+#header3 {
+    display: flex;
+    grid-area: hd;
+    background-color: #2196F3 ;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
 
 
 
@@ -112,7 +122,21 @@ header h1 {
     );
 }
 
+#pabout1 {
+    font-size: x-large;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 
+#pabout2 {
+    font-size: large;
+    margin: 45px;
+}
+
+#pabout3 {
+    font-size: large;
+    margin:40px
+}
 
 footer{
     position: fixed;
@@ -263,6 +287,13 @@ footer{
     font-size: x-large;
 }
 
+
+#footertres{
+    background-color: #2196F3;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
 #main4{
     display: flex;
     background-color:darkolivegreen ;
@@ -280,4 +311,39 @@ footer{
 
 #main4 em{
     margin:30px;
+}
+
+#main5 {
+    display: flex;
+    grid-area: main;
+    background-image: url(../img/manonlake.jpg);
+    background-size: cover;     
+    background-repeat: no-repeat;
+    background-position: center;
+
+    justify-content: center;
+    padding: 5rem;
+    
+    font-size: xx-large;
+}
+#main5 p {
+    font-size: large;
+}
+
+#main6 {
+    display:flex;
+    background-color: #2196F3;
+    justify-content: center;
+    padding: 2rem;
+
+}
+
+#main6 img{
+    width: 300px;
+    height: 280px;
+    border-radius: 50%;
+}
+
+#main6 em{
+    margin:80px;
 }
